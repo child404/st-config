@@ -86,23 +86,23 @@ unsigned int tabspaces = 8;
 static const char *colorname[] = {
         /* 8 normal colors */
         "#202020", /* close to monokai bg   */
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+	"#f92672",
+	"#a6e22e",
+	"#f4bf75",
+	"#66d9ef",
+	"#ae81ff",
+	"#2AA198",
+	"#f9f8f5",
 
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+	"#272822",
+	"#f92672",
+	"#a6e22e",
+	"#f4bf75",
+	"#66d9ef",
+	"#ae81ff",
+	"#2AA198",
+	"#f8f8f2",
 
 	[255] = 0,
 
