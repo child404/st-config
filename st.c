@@ -1279,7 +1279,7 @@ tnewline(int first_col)
 	int y = term.c.y;
 
 	if (y == term.bot) {
-+		tscrollup(term.top, 1, 1);
+		tscrollup(term.top, 1, 1);
 	} else {
 		y++;
 	}
