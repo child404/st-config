@@ -1877,7 +1877,7 @@ run(void)
 				XNextEvent(xw.dpy, &ev);
 				if (XFilterEvent(&ev, None))
 					continue;
-+				if (handler[ev.type]) {
+				if (handler[ev.type]) {
 					(handler[ev.type])(&ev);
 				}
 			}
